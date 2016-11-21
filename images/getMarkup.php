@@ -8,4 +8,3 @@ foreach ($files as $file) {
 </div>\n";
 	}
 }
-
