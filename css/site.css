@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+body {
+  font-family: 'Abel', serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 100000;
+}
+
+#content {
+  margin-top: 80px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 45px;
+  margin: 15px 0 0 15px;
+}
+
+.navbar {
+  float: right;
+  margin-top: 20px;
+}
+
+.navbar ul {
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+  font-size: 24px;
+}
+.navbar li a:hover {
+  color: #c0c0c0;
+}
+
+.header-container {
+  width: 100%;
+  text-align: center;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.section {
+  background: #d3d3d3;
+}
+
+.section-dark {
+  background: #c0c0c0;
+}
+
+.bio-text {
+  width: 54%;
+  padding: 0 15px;
+  min-width: 200px;
+  display: inline-block;
+}
+
+.bio-text p {
+  width: 95%;
+}
+
+.bio-photo {
+  width: 34%;
+  display: inline-block;
+  margin: 30px 20px 0 0;
+}
+
+.bio-photo img {
+  width: 100%;
+}
+
+@media (max-width: 780px) {
+  .bio-photo,
+  .bio-text {
+    width: 100%;
+  }
+}
+
+.form-container {
+  text-align: center;
+}
+.form-container form {
+  width: 400px;
+  display: inline-block;;
+}
+
+.form-email,
+.form-message,
+.form-submit {
+  display: block;
+  border: none;
+}
+
+.form-email,
+.form-message {
+  width: 400px;
+}
+
+.form-email {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.form-message {
+  height: 250px;
+  padding: 0;
+  resize: none;
+}
+
+.form-submit {
+  background: #fff;
+  width: 70px;
+  height: 32px;
+  margin: 10px 0;
+}
+
+#bio h3,
+#photos h3,
+#contact h3 {
+  color: #fff;
+  font-size: 45px;
+  margin: 15px 0 0 15px;
+}
+#contact {
+  padding-bottom: 200px;
+}
+
+#gallery {
+  text-align: center;
+  height: 500px;
+}
+
+#gallery img {
+  height: 450px;
+  padding: 20px;
+}
