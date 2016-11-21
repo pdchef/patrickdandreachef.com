@@ -132,23 +132,40 @@ h1 {
   margin: 10px 0;
 }
 
+.slick-control {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.slick-control span:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+#photos {
+  text-align: center;
+}
+
 #bio h3,
 #photos h3,
 #contact h3 {
   color: #fff;
   font-size: 45px;
   margin: 15px 0 0 15px;
+  text-align: left;
 }
+
 #contact {
   padding-bottom: 200px;
 }
 
 #gallery {
   text-align: center;
-  height: 500px;
+  height: 490px;
 }
 
 #gallery img {
   height: 450px;
   padding: 20px;
+  display: inline-block;
 }

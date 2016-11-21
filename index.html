@@ -53,6 +53,9 @@
             <h3>Photos</h3>
             <div id="gallery">
               <div>
+                  <img src='images/IMG_5652.jpg'>
+              </div>
+              <div>
                   <img src='images/20131206_193623.jpg'>
               </div>
               <div>
@@ -149,9 +152,6 @@
                   <img src='images/IMG_4591.jpg'>
               </div>
               <div>
-                  <img src='images/IMG_5652.jpg'>
-              </div>
-              <div>
                   <img src='images/IMG_6002.jpg'>
               </div>
               <div>
@@ -188,9 +188,6 @@
                   <img src='images/IMG_9057.jpg'>
               </div>
               <div>
-                  <img src='images/IMG_9121.jpg'>
-              </div>
-              <div>
                   <img src='images/IMG_9659.jpg'>
               </div>
               <div>
@@ -199,6 +196,11 @@
               <div>
                   <img src='images/ravioli.png'>
               </div>
+            </div>
+            <div class="slick-control">
+              <span id='slick-prev'>Previous</span>
+              |
+              <span id='slick-next'>Next</span>
             </div>
           </div>
           <div id="contact" class="section">
@@ -228,7 +230,12 @@
                 }
               }
             });
-            $('#gallery').slick();
+            $('#gallery').slick({
+                prevArrow: $('#slick-prev'),
+                nextArrow: $('#slick-next'),
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
           });
         </script>
     </body>
